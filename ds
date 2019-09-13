@@ -1,0 +1,42 @@
+git init
+git add .
+git remote add origin https://github.com/pedroti18/exercicio.git
+git commit -a -m "inicio"
+git config user.name "pedro"
+git config user.email "pedrosnc2018@gmail.com"
+git pull
+git commit
+git push origin master
+git push origin master -F -u
+git push origin master --Force
+
+--
+
+git add .
+git commit -m "exercicio atualizados"
+git push origin master
+
+--
+npm install
+json-server -w db.json
+
+--
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+firebase deploy
+
+--
+
+firebaseConfig: {
+    apiKey: "AIzaSyBIIa2ce3nVJ8mwu27cu45aXc6EKaHYFSE",
+    authDomain: "lojaangularbs.firebaseapp.com",
+    databaseURL: "https://lojaangularbs.firebaseio.com",
+    projectId: "lojaangularbs",
+    storageBucket: "",
+    messagingSenderId: "998946206398",
+    appId: "1:998946206398:web:da7305a0f5847ebac864ef"
+  }
